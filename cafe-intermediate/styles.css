@@ -6,15 +6,15 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  color: #3e3028;
-  background: #fffaf3;
+  color: #343b32;
+  background: #f8f6ef;
 }
 
 header {
   padding: 48px 20px;
   text-align: center;
   color: #ffffff;
-  background: #6f4e37;
+  background: #526b52;
 }
 
 header h1 {
@@ -27,17 +27,18 @@ nav {
   justify-content: center;
   gap: 28px;
   padding: 16px;
-  background: #ead8c5;
+  background: #e6e8d9;
 }
 
 nav a {
-  color: #3e3028;
+  color: #343b32;
   font-weight: bold;
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 nav a:hover {
-  color: #8b4513;
+  color: #b65f43;
   text-decoration: underline;
 }
 
@@ -51,11 +52,11 @@ section {
   padding: 24px;
   background: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 2px 8px #00000010;
+  box-shadow: 0 3px 12px #343b3210;
 }
 
 h2 {
-  color: #6f4e37;
+  color: #526b52;
 }
 
 li {
@@ -66,7 +67,7 @@ footer {
   padding: 20px;
   text-align: center;
   color: #ffffff;
-  background: #3e3028;
+  background: #343b32;
 }
 
 @media (max-width: 480px) {
